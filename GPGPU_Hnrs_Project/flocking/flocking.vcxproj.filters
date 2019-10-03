@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="engine.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="controls.cpp" />
+    <ClCompile Include="objloader.cpp" />
+    <ClCompile Include="shader.cpp" />
+    <ClCompile Include="speedsample.cpp" />
+    <ClCompile Include="visualize.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="objloader.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="controls.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="speedsample.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="boid.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="boid.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="sphere.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="sphere.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{2dc80c5c-0c74-4d0b-9870-9cf520267f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{c9e13e2f-8dde-4973-9627-81d4bcfe5cd5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

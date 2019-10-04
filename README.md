@@ -10,4 +10,4 @@ My project aims to explore further application of Boids behavioural model in con
 drop off in remote or rural areas.
 ▪ Fly away from an on-pursuit predator
 
-# DEMO of the Simulation available on https://www.youtube.com/upload?redirect_to_creator=true&fr=3
+DEMO of the Simulation available on https://www.youtube.com/upload?redirect_to_creator=true&fr=3

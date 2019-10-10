@@ -7,11 +7,7 @@ https://www.nvidia.com/content/GTC/documents/1055_GTC09.pdf //
 https://gamedevelopment.tutsplus.com/tutorials/3-simple-rules-of-flocking-behaviors-alignment-cohesion-and-separation--gamedev-3444
 */
 
-// Had a look at this CUDA boids project to get a idea of basic flocking as that's the only this this project has 
-//https://github.com/illDivino/Project1-CUDA-Flocking/blob/master/src/main.cpp 
-// No obstacle avoidance, no leader, following
-// doesn;t have means to rotate the 3d space and zoom in out of it 
-// no full screen functionality either
+
 
 #include <stdio.h>
 #include <stdlib.h>
